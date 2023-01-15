@@ -77,10 +77,13 @@ const ButtonWrapper = styled.div`
 const Nav = styled.nav`
   display: flex;
   flex-direction: column;
-  gap: 22px;
+  gap: 1.375rem;
 `;
 
-const Footer = styled(Nav)``;
+const Footer = styled(Nav)`
+  font-size: 0.875rem;
+  gap: 0.875rem;
+`;
 
 const NavLink = styled.a`
   color: ${COLORS.gray[900]};
